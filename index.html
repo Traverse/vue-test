@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Vue Test</title>
+    </head>
+    <body>
+        <div id="app">
+            <app-header></app-header>
+            <post v-for="post in posts" :post="post"></post>
+        </div>
+        <script src="./js/bundle.js"></script>
+    </body>
+</html>
